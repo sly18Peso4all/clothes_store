@@ -1,0 +1,14 @@
+{
+  "name": "clothes_store",
+  "version": "1.0.0",
+  "description": "Clothes stores",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "joseph",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

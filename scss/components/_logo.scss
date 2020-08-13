@@ -1,0 +1,19 @@
+.logo {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    padding: 1rem;
+
+    @include response(sm) {
+       display: none;
+    }
+
+    &-img {
+        width: 10rem;
+        height: 100%;
+
+        @include response(md) {
+            width: 4rem;
+            height: 60%;
+        }
+    }
+}
